@@ -1,0 +1,3 @@
+# Windows desktop-only dependency set. Streamlit Cloud uses requirements.txt.
+-r requirements.txt
+pywebview>=5.0,<7

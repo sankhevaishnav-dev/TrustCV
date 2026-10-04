@@ -1,0 +1,27 @@
+# Python environments and bytecode
+__pycache__/
+*.py[cod]
+.venv/
+.build-venv/
+venv/
+
+# User data, settings, and secrets
+*.sqlite3
+*.sqlite3-*
+*.db
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Local exports, logs, and scratch files
+*.csv
+*.log
+outputs/
+uploads/
+tmp/
+temp/
+
+# PyInstaller outputs (keep TrustCV.spec in source)
+build/
+dist/
